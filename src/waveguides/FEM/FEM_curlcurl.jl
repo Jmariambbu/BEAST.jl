@@ -35,7 +35,7 @@ BEAST.scalartype(localop::curlcurl) = typeof(localop.α)
 
 
 
-
+#=
 function realvertices(mesh::Mesh)
     active_nodes = realnodes(mesh)
     return mesh.vertices[active_nodes]
@@ -117,3 +117,4 @@ function full_coeff_vector(X, freenodes, u_F, topnodes, u_top, bottomnodes, u_bo
     return u
 end
 
+=#
